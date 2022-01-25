@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>WIL-Intern</title>
+  <link rel="icon" href="https://thewitslab.com/static/media/witslogo.262601f8.svg">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="validation.js"></script>
+</head>
+ 
+<body>
+  <div class="container">
+  <div class="form">
+  <div class="btn">
+  <button class="signUpBtn">SIGN UP</button>
+  <a href="http://127.0.0.1:5500/login.html" target="loginBtn">
+  <button class="loginBtn">LOG IN</button>
+  </a>  
+  </div>
+
+  <form action='#' method='post'  id="form" onsubmit="return validateForm()" class="form">
+   <div class="form-control" id="fname" >
+  <input type="text" name="fname" class="form-control" placeholder="Full Name"  ><b><span class="formerror"><i class="fa fa-exclamation-circle"></i> </span></b>
+  </div>
+
+
+
+  <div class="form-control" id="femail" >
+  <input type="email" name="femail" class="form-control" placeholder="Email ID" ><b><span class="formerror"><i class="fa fa-exclamation-circle"></i></span></b>
+  </div>
+
+
+  <div class="form-control" id="pass" >
+  <input  type="password" name="psw" class="form-control" placeholder="Password"  ><b><span class="formerror"><i class="fa fa-exclamation-circle"></i>
+  </span></b>
+  </div>
+
+
+  <div class="form-control" id="cpass"  >
+  <input  type="password" name="cpsw" class="form-control" placeholder="Confirm Password"><b><span class="formerror"><i class="fa fa-exclamation-circle"></i></span></b>
+  </div>
+
+  
+  <button type="submit" class="btn2"> REGISTER </button>
+  </div>
+  </form>
+  </div>
+  </div>
+  
+ 
+</body>
+ 
+</html>

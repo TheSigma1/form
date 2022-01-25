@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>WITS INTERN</title>
+  <link rel="icon" href="https://thewitslab.com/static/media/witslogo.262601f8.svg">
+  <script src="./validation.js"></script>
+ 
+</head>
+ 
+<body>
+<div class="container">
+<div class="form">
+<div class="btn">
+<button class="loginBtn">LOG IN</button>
+</div>
+<form action='#' method='post'  id="form" onsubmit="return validateForm()" class="form">
+  <div class="form-control" id="femail" >
+    <input type="email" name="femail" class="form-control" placeholder="Email ID" ><b><span class="formerror"></span></b>
+    </div>
+  
+  
+    <div class="form-control" id="pass" >
+    <input  type="password" name="psw" class="form-control" placeholder="Password"  ><b><span class="formerror">
+    </span></b>
+    </div>
+<div class="form-control">
+<a href="http://127.0.0.1:5500/index.html" target="btn2">
+<button type="submit" class="btn2" >SIGN-IN</button>
+</a>
+</div>
+<div class="form-control">
+<a href="http://127.0.0.1:5500/signup.html">New user, please Signup</a>
+</div>
+  
+</form>
+ 
+</div>
+</div>
+</body>
+ 
+</html>

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1515616222614-f4adb6b68020?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1326&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items:center !important;
+  height: 100vh;
+}
+.form{
+  width: 350px;
+  height: 450px;
+  background-color: rgba(41, 39, 39, 0.3);
+  box-shadow: 0 5px 30px black;
+}
+.btn button {
+  padding: 3px;
+  margin: 30px 0px 40px 30px;
+  border-style: none;
+  background-color: transparent;
+  color: beige;
+  font-size: 18px;
+  font-weight: 550;
+}
+.form-control{
+  display: flex;
+  justify-content: center;
+}
+.form-control input{
+  border: none;
+  width: 80%;
+  border-bottom: 01px solid white;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+}
+input:focus {
+  outline: none !important;
+  border-bottom: 2px solid rgb(91, 243, 131);
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+.btn2{
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  background: -webkit-linear-gradient(#f71e1e,#ffa601);
+  border-style: none;
+  color: white;
+  font-weight: 600;
+}
+.btn2:hover{
+  background: -webkit-linear-gradient(#ffa601,#f71e1e);
+}
+.btn button:hover{
+  border-bottom: 2px solid rgb(91, 243, 131);
+}
+.login{
+  display: none;
+}
+.login{
+  margin-top: 40px;
+}
+a{
+  margin-top: 50px; 
+    font-family:'Mochiy Pop P One', sans-serif ;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    list-style: linear-gradient();
+
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 25px;
+	right: 125px;
+}
+
+
+.formerror{
+  color: red;
+ position: absolute;
+ right: 600px;
+ font-size: 10px;
+
+}
+.form-control.formerror i{
+  visibility: visible;
+}
